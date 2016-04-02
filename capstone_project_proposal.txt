@@ -1,0 +1,33 @@
+March Madness Machine Learning Project
+
+	For my capstone project, I plan to use machine learning algorithms to attempt to predict the results of the NCAA Tournament for basketball
+often referred to as the March Madness tournament.  Since the 2016 tournament is will be over in two days, I plan to use data from the 2011-2015 
+tournaments as well as the results of the 2011-2016 regular seasons to train my machine learning.  I will use the 2016 tournament results as my
+final test for the accuracy of my classifiers.  Throughout this process I also hope to be able to produce the best features for predicting an upset.
+
+	I believe that there is a large audience who interested in this type of data.  One such client could be SportsCenter on ESPN who devotes a
+large portion of their broadcasting time in February and March to "bracketology", or the study of the NCAA tournament.  Another interested party
+could be anyone who gambles on sports.  This tournament is one of the most betted upon sports events in the United States.  The main things that 
+these two clients can do with my data is to fill out their brackets more effectively.  Every year bracket competitions are held at both a national
+and local level that result in cash prizes.  SportsCenter in particular has one of the largest bracket challenges in the nation.  I hope to present
+new features that both of these clients can use to predict the outcomes of these games that they may have not thought of before.
+
+	The data I will use can be found at https://www.kaggle.com/c/march-machine-learning-mania-2016/data as well as 
+https://www.kaggle.com/c/march-machine-learning-mania-2015/data.  These two datasets are available for download from the kaggle website.  They contain
+information on the past 6 regular seasons and 5 most recent tournaments including many standard basketball stastistics such as fields attempted and 
+made.  I also plan to use the data contained at http://www.masseyratings.com/cb/compare.htm.  This website has current and historical data about several
+ranking systems and the ranks for each of the NCAA tournament elegible teams.  The data is available in easily downloadable csv files.
+
+	My approach to this problem will first involve doing some prelimanry analysis using the stastistics taught in the sliderule course.  I hope that 
+by doing this I may be able to find some features that are indicative of a win.  I also plan to assemble my own small data set which will include 
+geographical data on the games, such as distances traveled and time zones traversed.  I believe that these may factor into who is more likely to win.  I
+plan to use supervised learning in my approach.  I can classify any game as a win or loss for the higher seeded team.  This would make my negative 
+result represent an upset where the lower seed (higher number) defeats the higher seed (lower number).  I plan to take advantage of all the tools offered
+in the sklearn package on python.  I believe I can use principle component analysis to help reduce the dimensionality of my data.  I may aslo try to 
+develop a model that uses regression that can give me a probabilty of each team winning.  The original kaggle competition includes a metric for evaluating 
+my results that I can compare to the rest of the community that penalizes more harshly for being confident and wrong.  I think this will be interesting as it
+will allow me to use supervised learning to create my classifiers and unsupervised learning to create the regressions required to create the continuous
+probabilties.  
+
+	My final deliverables will be a paper describing my methods as well as the code that I used to generate my results.  I will also produce a 
+power point or a slide deck to present my data visualizations.
