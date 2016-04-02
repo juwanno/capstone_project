@@ -1,0 +1,27 @@
+Capstone Project Proposal
+
+1.  March Madness
+
+	Using the data from https://www.kaggle.com/c/march-machine-learning-mania-2016/data, 
+I wish to complete the corresponding challenge.  I must use this data to predict the probabilities 
+of each outcome of every possible matchup from the NCAA tournaments from the last 5 years as well as this year.  
+I wish to see how well the data can predict these outcomes.  I also think this will be interesting because 
+this year has been so full of upsets already.  I would like to see if the data supports these.  
+I may be able to come up with some reliable features that can help predict which games are most likely to end in an upset.
+
+2.  Yelp Data Challenge
+
+	By using the data available at https://www.yelp.com/dataset_challenge/dataset, 
+I wish to explore natural language processing.  The end goal would be to predict the rating 
+associated with a review from the text alone.  I think by determining which words were associated 
+with positive and negative reviews I could come up with a model that attempts to predict the number 
+given with reviews.
+
+3.  College Scorecards
+
+	I wish to use the data contained here https://collegescorecard.ed.gov/data/ in order to predict 
+how much money a college spends on advertising.  I would also like to see the correlation between the 
+student's family income and how much debt they leave with.  In particular, I am interested to see if 
+for profit universities specifically target those who are less well off financially.  I am also interested 
+in determining if all for profit institutions perform poorly when it comes to debt and expected levels of income, 
+or if some actually do better than non profit institutions.  
