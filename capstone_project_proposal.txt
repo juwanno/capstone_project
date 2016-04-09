@@ -26,7 +26,7 @@ result represent an upset where the lower seed (higher number) defeats the highe
 in the sklearn package on python.  I believe I can use principle component analysis to help reduce the dimensionality of my data.  I may aslo try to 
 develop a model that uses regression that can give me a probabilty of each team winning.  The original kaggle competition includes a metric for evaluating 
 my results that I can compare to the rest of the community that penalizes more harshly for being confident and wrong.  I think this will be interesting as it
-will allow me to use supervised learning to create my classifiers and unsupervised learning to create the regressions required to create the continuous
+will allow me to use supervised learning to create my classifiers and the regressions required to create the continuous
 probabilties.  
 
 	My final deliverables will be a paper describing my methods as well as the code that I used to generate my results.  I will also produce a 
